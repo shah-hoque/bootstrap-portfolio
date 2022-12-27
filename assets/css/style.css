@@ -8,7 +8,7 @@ reuse throughout your stylesheet */
     --color-body: #ff0505;
     --color-heading: #fd2b2b;
     --color-base: #0d0e0e;
-    --color-base2: #efefef;
+    --color-base2: #F7F6F7;
     --color-brand: #e0f780;
     --color-brand2: #deff58;
     --sidebar-width: 240px;
@@ -66,5 +66,16 @@ img {
         background-position: center;
 
     }
+
+    /* CONTENT WRAPPER */
+    #content-wrapper {
+        padding-left: var(--sidebar-width);
+    }
+
+
+
+
 }
+
+
 
