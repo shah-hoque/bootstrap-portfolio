@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500;600;700&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600&display=swap');
 
 /* 
 :root is where you declare and initialize global vars that you can 
@@ -11,8 +11,8 @@ reuse throughout your stylesheet */
     --color-base2: #efefef;
     --color-brand: #e0f780;
     --color-brand2: #deff58;
-    --sidbar-width: 240px;
-    --font-base: "Bai Jamjuree";
+    --sidebar-width: 240px;
+    --font-base: "Urbanist";
 }
 
 body {
@@ -40,7 +40,31 @@ img {
     width: 100%;
 }
 
-/* 
-CSS OVERRIDE
-*/
+/* NAVBAR*/
+.navbar .nav-link {
+    font-weight: 500;
+    font-size: medium;
+} 
+
+.navbar .nav-link:hover {
+    color: #676363;
+}
+
+
+.navbar img {
+    padding-bottom: 10%;
+    width: 90%;
+    
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        min-height: 100vh;
+        width: var(--sidebar-width);
+        background-color: #f8f4f4;
+        background-size: cover;
+        background-position: center;
+
+    }
+}
 
