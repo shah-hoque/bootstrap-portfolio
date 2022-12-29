@@ -4,10 +4,12 @@
 :root is where you declare and initialize global vars that you can 
 reuse throughout your stylesheet */
 
+/* SITES MAIN CSS */
+
 :root {
     --color-body: #ff0505;
     --color-heading: #fd2b2b;
-    --color-base: #0d0e0e;
+    --color-base: #ffffff;
     --color-base2: #F7F6F7;
     --color-brand: #e0f780;
     --color-brand2: #deff58;
@@ -36,18 +38,41 @@ a:hover {
     color: var(--color-brand)
 }
 
-img {
-    width: 100%;
+
+
+
+.full-height {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgb(77, 77, 77, 0.1);
 }
 
+.home-top-padding {
+    padding-top: 10%;
+    display: block;
+}
+
+
+
+
+
 /* NAVBAR*/
+.navbar {
+    background-color: var(--color-base);
+}
+
 .navbar .nav-link {
-    font-weight: 500;
-    font-size: medium;
+    font-weight: 1000;
+    font-size: larger;
 } 
 
 .navbar .nav-link:hover {
-    color: #676363;
+    color: #fd2b2b;
 }
 
 
@@ -57,14 +82,23 @@ img {
     
 }
 
+/* HOME */
+#hero-text-1 {
+    color: #0d0e0e;
+}
+
+#interact-text {
+    font-weight: 100;
+}
+
 @media (min-width: 992px) {
     .navbar {
         min-height: 100vh;
         width: var(--sidebar-width);
-        background-color: #f8f4f4;
+        background-color: #ffffff;
         background-size: cover;
         background-position: center;
-
+        /* background: linear-gradient(rgba(233, 236, 236, 0.9), rgba(255, 255, 255, 0.9)) */
     }
 
     /* CONTENT WRAPPER */
@@ -72,10 +106,20 @@ img {
         padding-left: var(--sidebar-width);
     }
 
-
-
-
+    
+    
 }
 
 
+@media (max-width: 992px) {
+    
+    /* HOME */
+    #iframe-code {
+        display: none;
+    }
+
+    #interact-text {
+        display: none;
+    }
+}
 
