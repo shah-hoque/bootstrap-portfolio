@@ -4,10 +4,9 @@
 :root is where you declare and initialize global vars that you can 
 reuse throughout your stylesheet */
 
-/* SITES MAIN CSS */
-
+/* SITES MAIN CSS -----------------------------------------------*/
 :root {
-    --color-body: #ff0505;
+    --color-body: #000000;
     --color-heading: #fd2b2b;
     --color-base: #ffffff;
     --color-base2: #F7F6F7;
@@ -38,9 +37,6 @@ a:hover {
     color: var(--color-brand)
 }
 
-
-
-
 .full-height {
     min-height: 100vh;
     height: 100%;
@@ -49,19 +45,17 @@ a:hover {
     justify-content: center;
     padding-top: 80px;
     padding-bottom: 80px;
-    border-bottom: 2px solid rgb(77, 77, 77, 0.1);
+    border-bottom: 2px solid rgba(146, 32, 32, 0.1);
 }
 
 .home-top-padding {
     padding-top: 10%;
     display: block;
 }
+/* / / SITES MAIN CSS -----------------------------------------------*/
 
 
-
-
-
-/* NAVBAR*/
+/* NAVBAR -----------------------------------------------*/
 .navbar {
     background-color: var(--color-base);
 }
@@ -75,14 +69,18 @@ a:hover {
     color: #fd2b2b;
 }
 
-
 .navbar img {
     padding-bottom: 10%;
-    width: 90%;
-    
+    width: 90%;  
 }
 
-/* HOME */
+.navbar .nav-link.active {
+    color: #fd2b2b;
+}
+/* / / NAVBAR -----------------------------------------------*/
+
+
+/* HOME -----------------------------------------------*/
 #hero-text-1 {
     color: #0d0e0e;
 }
@@ -90,36 +88,71 @@ a:hover {
 #interact-text {
     font-weight: 100;
 }
+/* / / HOME -----------------------------------------------*/
+
+
+/* MY WORK -----------------------------------------------*/
+.card {
+    border: none;
+}
+  
+.shadow-effect {
+    transition: all 0.5s;
+}
+
+.shadow-effect:hover {
+    box-shadow: -5px 4px 0px 2px #fd2b2b93; 
+    /* background-color:rgb(206, 14, 14); */
+    /* box-shadow: 0 0 0 3px white;
+    /* box-shadow: rgb(206, 14, 14);
+    box-shadow: -6px 6 0 8px var(--color-base); */
+}
+
+#h1-my-work {
+    color: #0d0e0e;
+    padding-bottom: 1%;
+}
+
+#link-format{
+    font-weight: bold;
+}
+
+#link-format:hover{
+    color: #fd2b2b;
+}
+/* / / MY WORK -----------------------------------------------*/
+
 
 @media (min-width: 992px) {
-    .navbar {
-        min-height: 100vh;
-        width: var(--sidebar-width);
-        background-color: #ffffff;
-        background-size: cover;
-        background-position: center;
-        /* background: linear-gradient(rgba(233, 236, 236, 0.9), rgba(255, 255, 255, 0.9)) */
+/* NAVBAR -----------------------------------------------*/
+.navbar {
+    min-height: 100vh;
+    width: var(--sidebar-width);
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+/* background: linear-gradient(rgba(233, 236, 236, 0.9), rgba(255, 255, 255, 0.9)) */
+/* / / NAVBAR -----------------------------------------------*/
+
     }
 
-    /* CONTENT WRAPPER */
-    #content-wrapper {
-        padding-left: var(--sidebar-width);
-    }
-
-    
-    
+/* CONTENT WRAPPER -----------------------------------------------*/
+#content-wrapper {
+    padding-left: var(--sidebar-width);
+}
+/* / / CONTENT WRAPPER -----------------------------------------------*/
 }
 
 
 @media (max-width: 992px) {
-    
-    /* HOME */
-    #iframe-code {
-        display: none;
-    }
+/* HOME -----------------------------------------------*/
+#iframe-code {
+    display: none;
+}
 
-    #interact-text {
-        display: none;
-    }
+#interact-text {
+    display: none;
+}
+/* / / HOME -----------------------------------------------*/
 }
 

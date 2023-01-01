@@ -10,9 +10,13 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
+    <!-- <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"> -->
+
+    <!-- remove icons added later -->
+
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
 
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -49,31 +53,104 @@
 
         <div class="container">
           <div class="row">
-            <div class="col-lg-8">       
+
+            <div class="col-12 col-md-6 col-lg-8">
               <h3 id="hero-text-1">Hi, it's Shah!</h3>
               <h4 id="hero-text-2">A junior web developer!</h4>
-
-                <iframe id="iframe-code" src='https://my.spline.design/calculatorcopy-3448cfbd48b2d8434fac9f77758701e9/' frameborder='0' width="150%" height="160%"></iframe>
-
+              <iframe id="iframe-code" src='https://my.spline.design/calculatorcopy-3448cfbd48b2d8434fac9f77758701e9/' frameborder='0' width="150%" height="160%"></iframe>
               <p id="interact-text">Hold click & use cursor to move the 3D image. Reload page to recenter.</p>
-              
-
             </div>
           </div>
+
         </div>
 
       </section>
       <!-- /HOME -->
 
       <!-- MY WORK -->
-      <section id="my-work" class="full-height px-lg-5">
+      <section id="my_work" class="full-height px-lg-5">
+
         <div class="container">
           <div class="row">
+
             <div class="col-lg-8">
-              <p>hello</p>
+              <h6 class="text-brand">Last updated on Jan 2023</h6>
+              <h1 id="h1-my-work">My work</h1>
             </div>
           </div>
-        </div>
+
+          <div class="container">
+            <div class="row g-3">
+              
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-effect">
+                  <div class="card-body">
+                    <h5 class="card-title">Simple HTML portfolio</h5>
+                    <p class="card-text">A first attempt at a very bare bone basic HTML portfolio site with no JS.</p>
+                    <a href="https://shah-hoque.github.io/portfolio-website/" target="_blank" id="link-format" class="card-link">View</a>
+                    <a href="https://github.com/shah-hoque/portfolio-website" id="link-format" target="_blank" class="card-link">Github</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-effect">
+                  <div class="card-body">
+                    <h5 class="card-title">Bootstrap portfolio</h5>
+                    <p class="card-text">This very website was built using Bootstrap. It does not include any JS.</p>
+                    <a href="https://github.com/shah-hoque/bootstrap-portfolio" id="link-format" target="_blank" class="card-link">Github</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-effect">
+                  <div class="card-body">
+                    <h5 class="card-title">R, P or S</h5>
+                    <p class="card-text">Rock, papers or scissors meme themed game against the computer. </p>
+                    <a href="#" id="link-format" class="card-link">Not published</a>
+                    <a href="https://github.com/shah-hoque/rock-paper-scissors_game_meme-themed" id="link-format" target="_blank" class="card-link">Github</a>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-effect">
+                  <div class="card-body rounded-6">
+                    <h5 class="card-title">Placeholder 4</h5>
+                    <p class="card-text">Some quick example text to build on the card title and's content.</p>
+                    <a href="#" id="link-format" class="card-link">View link</a>
+                    <a href="#" id="link-format" class="card-link">Github link</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-effect">
+                  <div class="card-body rounded-6">
+                    <h5 class="card-title">Placeholder 5</h5>
+                    <p class="card-text">Some quick example text to build on the card title and's content.</p>
+                    <a href="#" id="link-format" class="card-link">View link</a>
+                    <a href="#" id="link-format" class="card-link">Github link</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-effect">
+                  <div class="card-body rounded-6">
+                    <h5 class="card-title">Placeholder 6</h5>
+                    <p class="card-text">Some quick example text to build on the card title and's content.</p>
+                    <a href="#" id="link-format" class="card-link">View link</a>
+                    <a href="#" id="link-format" class="card-link">Github link</a>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+
+
+        
 
       </section>
       <!-- /MY WORK -->
@@ -96,10 +173,10 @@
 <!--  
 
 TODO:
-[] A navigation bar
-[] A navigation menu at the top. Feel free to use Bootstrap's navbar or create your own.
-    [] Include links that are applicable to your portfolio.
-    [] Links should navigate to the appropriate sections
+[x] A navigation bar
+[x] A navigation menu at the top. Feel free to use Bootstrap's navbar or create your own.
+    [x] Include links that are applicable to your portfolio.
+    [x] Links should navigate to the appropriate sections
 
 [] A hero section
     [] A jumbotron featuring your picture, your name, and any other information you'd like to include.
