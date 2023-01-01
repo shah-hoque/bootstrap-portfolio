@@ -45,12 +45,7 @@ a:hover {
     justify-content: center;
     padding-top: 80px;
     padding-bottom: 80px;
-    border-bottom: 2px solid rgba(146, 32, 32, 0.1);
-}
-
-.home-top-padding {
-    padding-top: 10%;
-    display: block;
+    border-bottom: 2px solid rgb(77, 77, 77, 0.1);
 }
 /* / / SITES MAIN CSS -----------------------------------------------*/
 
@@ -85,9 +80,18 @@ a:hover {
     color: #0d0e0e;
 }
 
-#interact-text {
-    font-weight: 100;
+#background-color {
+    background-color: #F7F6F7;
 }
+
+#decode-text {
+    padding-top: 5%;
+}
+
+
+
+
+
 /* / / HOME -----------------------------------------------*/
 
 
@@ -146,13 +150,25 @@ a:hover {
 
 @media (max-width: 992px) {
 /* HOME -----------------------------------------------*/
-#iframe-code {
-    display: none;
+#home-media-q {
+    padding-top: 10%;
+    transform: scale(1);
+    padding-bottom: 10%;
 }
 
-#interact-text {
-    display: none;
-}
+
+
 /* / / HOME -----------------------------------------------*/
+
+/* MY WORK -----------------------------------------------*/
+#h1-my-work {
+    text-align: center;
+}
+
+#h6-my-work {
+    padding-bottom: 5%;
+}
+/* / / MY WORK -----------------------------------------------*/
+
 }
 
