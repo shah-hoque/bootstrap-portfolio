@@ -21,7 +21,7 @@ The application has no installation requirements and acts like any normal websit
 ## Usage
 The website in the (Work) section for each card links to either the deployed application, the Github repository or both. Some cards have been added as placeholders for future completed projects.
 
-**Image of Home page**
+**Image of the Home page**
 
 ![image of the home page of a bootstrap website](/assets/images/home%20page%20of%20website.png)
 
