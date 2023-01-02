@@ -1,22 +1,29 @@
 # bootstrap-portfolio
 
-<!-- 
-    
-  Repositories should have a unique name, avoid using module, challenge, homework, assignment, project etc. 
-  
-  The README is missing the link to the deployed application. 
-  
-  Check your Markdown syntax for the image portion of your README, we should be able to see the image when view the repository.https://www.markdownguide.org/basic-syntax/ . 
+Last updated on: 2nd Jan 2023. Last updated by: Shohidul Shah Hoque
+__________
 
+## Description
+This application is only deployed currently via Github's Pages.
+- https://shah-hoque.github.io/bootstrap-portfolio
 
-  did not add
+The purpose of this application was to use Bootstrap elements to build a portfolio website.
 
-  [] A footer section
-    [] All hyperlinks should have a hover effect.
-    [] All buttons should display a box shadow upon hover.
+Listed below are the sections that are included in this website
+- Home
+- Work
+- Skills
+- About me
 
-    [] A jumbotron featuring your picture, your name, and any other information you'd like to include.
+## Installation
+The application has no installation requirements and acts like any normal website. Having used Bootstrap elements, the website is fully responsive to view on multiple device types.
 
- -->
+## Usage
+The website in the (Work) section for each card links to either the deployed application, the Github repository or both. Some cards have been added as placeholders for future completed projects.
 
- 
+**Image of Home page**
+
+![image of the home page of a bootstrap website](/assets/images/home%20page%20of%20website.png)
+
+## Credits
+Author: Shohidul Shah Hoque
