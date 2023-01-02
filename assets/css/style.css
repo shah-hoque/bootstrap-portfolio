@@ -20,6 +20,8 @@ body {
     background-color: var(--color-base2);
     color: var(--color-body);
     font-family: var(--font-base), sans-serif;
+    caret-color: transparent;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -118,13 +120,13 @@ a:hover {
 /* WORK (end) -----------------------------------------------*/
 
 /* SKILLS -----------------------------------------------*/
-/* .list-background {
-    background-color: rgb(255, 255, 255);
-} */
-
 /* SKILLS (end) -----------------------------------------------*/
 
-
+/* ABOUT ME -----------------------------------------------*/
+#twitter-link {
+    color: #1da1f2;
+}
+/* ABOUT ME (end) -----------------------------------------------*/
 
 
 
