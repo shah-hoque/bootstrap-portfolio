@@ -74,6 +74,9 @@ a:hover {
 .navbar .nav-link.active {
     color: #fd2b2b;
 }
+
+#twitter-position {
+padding-bottom: 5%;}
 /* NAVBAR (end) -----------------------------------------------*/
 
 
@@ -129,8 +132,6 @@ a:hover {
 /* ABOUT ME (end) -----------------------------------------------*/
 
 
-
-
 @media (min-width: 992px) {
 /* NAVBAR MQ -----------------------------------------------*/
 .navbar {
@@ -149,8 +150,13 @@ a:hover {
 /* CONTENT WRAPPER MQ (end) -----------------------------------------------*/
 }
 
-
 @media (max-width: 992px) {
+/* NAV MQ -----------------------------------------------*/
+#twitter-position {
+    display: none;
+}
+/* NAVBAR MQ (end) -----------------------------------------------*/
+
 /* HOME MQ -----------------------------------------------*/
 #home-media-q {
     padding-top: 10%;
